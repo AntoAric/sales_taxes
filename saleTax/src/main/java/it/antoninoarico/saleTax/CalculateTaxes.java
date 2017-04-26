@@ -56,7 +56,7 @@ public class CalculateTaxes {
 				p.setTax((tax * p.getTotal() / 100));
 				shoppingBaskets.add(p);
 			}
-		}
+		} 
 
 		// Close the input stream
 		br.close();
