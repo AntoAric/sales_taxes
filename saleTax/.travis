@@ -2,4 +2,5 @@ language: java
 jdk:
   - oraclejdk8
 
-script: "make it-rain"
+sudo: false
+script: mvn clean verify
